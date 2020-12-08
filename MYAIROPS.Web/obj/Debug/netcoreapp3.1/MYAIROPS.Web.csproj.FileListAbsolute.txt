@@ -2,7 +2,6 @@ C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\bin\Debug\netcoreapp3.1\appset
 C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\bin\Debug\netcoreapp3.1\MYAIROPS.Web.exe
-C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\obj\Debug\netcoreapp3.1\MYAIROPS.Web.csprojAssemblyReference.cache
 C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\obj\Debug\netcoreapp3.1\MYAIROPS.Web.AssemblyInfoInputs.cache
 C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\obj\Debug\netcoreapp3.1\MYAIROPS.Web.AssemblyInfo.cs
 C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\obj\Debug\netcoreapp3.1\MYAIROPS.Web.RazorTargetAssemblyInfo.cache

@@ -16,13 +16,16 @@ namespace MYAIROPS.Web.Controllers
         private readonly ILogsService _logsService;
         public LogsController(ILogsService logsService)
         {
-            ILogsService _logsService = logsService;
+            this._logsService = logsService;
         }
 
         [HttpPost("{log}")]
+        //[HttpPost("id")]
         public ActionResult AddLog(Log log)
         {
+            //_logsService.AddLog()
             throw new System.NotImplementedException();
+           
         }
 
     }
