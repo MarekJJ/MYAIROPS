@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace MYAIROPS.Web.Models
 {
-    public class ModelClass
+    public class Log
     {
-        public string TextBoxOne { get; set; }
+        public int Id { get; set; }
 
-        public string TextBoxTwo { get; set; }
+        public string Text { get; set; }
 
         public DateTime Date { get; set; }
     }
