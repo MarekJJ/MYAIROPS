@@ -2,11 +2,6 @@ C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\bin\Debug\netcoreapp3.1\appset
 C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\bin\Debug\netcoreapp3.1\MYAIROPS.Web.exe
-C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\obj\Debug\netcoreapp3.1\MYAIROPS.Web.AssemblyInfoInputs.cache
-C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\obj\Debug\netcoreapp3.1\MYAIROPS.Web.AssemblyInfo.cs
-C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\obj\Debug\netcoreapp3.1\MYAIROPS.Web.RazorTargetAssemblyInfo.cache
-C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\obj\Debug\netcoreapp3.1\staticwebassets\MYAIROPS.Web.StaticWebAssets.Manifest.cache
-C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\obj\Debug\netcoreapp3.1\staticwebassets\MYAIROPS.Web.StaticWebAssets.xml
 C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\bin\Debug\netcoreapp3.1\MYAIROPS.Web.deps.json
 C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\bin\Debug\netcoreapp3.1\MYAIROPS.Web.runtimeconfig.json
 C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\bin\Debug\netcoreapp3.1\MYAIROPS.Web.runtimeconfig.dev.json
@@ -87,7 +82,12 @@ C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\bin\Debug\netcoreapp3.1\zh-Han
 C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\obj\Debug\netcoreapp3.1\MYAIROPS.Web.csproj.CoreCompileInputs.cache
 C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\obj\Debug\netcoreapp3.1\MYAIROPS.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\obj\Debug\netcoreapp3.1\MYAIROPS.Web.AssemblyInfoInputs.cache
+C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\obj\Debug\netcoreapp3.1\MYAIROPS.Web.AssemblyInfo.cs
+C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\obj\Debug\netcoreapp3.1\MYAIROPS.Web.RazorTargetAssemblyInfo.cache
 C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\obj\Debug\netcoreapp3.1\MYAIROPS.Web.csproj.CopyComplete
+C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\obj\Debug\netcoreapp3.1\staticwebassets\MYAIROPS.Web.StaticWebAssets.Manifest.cache
+C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\obj\Debug\netcoreapp3.1\staticwebassets\MYAIROPS.Web.StaticWebAssets.xml
 C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\obj\Debug\netcoreapp3.1\MYAIROPS.Web.dll
 C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\obj\Debug\netcoreapp3.1\MYAIROPS.Web.pdb
 C:\Users\marek\source\repos\MYAIROPS\MYAIROPS.Web\obj\Debug\netcoreapp3.1\MYAIROPS.Web.genruntimeconfig.cache

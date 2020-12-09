@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MYAIROPS.Web.Interfaces;
 using MYAIROPS.Web.Models;
@@ -19,14 +15,32 @@ namespace MYAIROPS.Web.Controllers
             this._logsService = logsService;
         }
 
-        [HttpPost("{log}")]
-        //[HttpPost("id")]
-        public ActionResult AddLog(Log log)
+        [HttpPost]
+        [Route("addlog")]
+        public ActionResult AddLog(LogDto log)
         {
-            //_logsService.AddLog()
-            throw new System.NotImplementedException();
-           
+            try
+            {
+                _logsService.AddLog(log);
+            }
+            catch
+            {
+                throw new Exception("Not able to add log: " + log.Id + ", " + log.Text + ", " + log.Date);
+            }
+            return Ok("Log added: " + log.Id + ", " + log.Text + ", " + log.Date);
         }
+        //PostMan url: https://localhost:44377/api/logs/addLog
+        //{
+        // "Id":1,
+        // "Text":"From text field",
+        // "Date": "2020-11-05T20:56:48.56"
+        //}
 
+        //For test:
+        //{
+        //"Id":1,
+        //"Text":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+         // "Date": "2020-11-05T20:56:48.56"
+        //}
     }
 }

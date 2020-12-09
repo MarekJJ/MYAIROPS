@@ -1,18 +1,23 @@
 ﻿using MYAIROPS.Web.Interfaces;
 using MYAIROPS.Web.Models;
 using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Threading.Tasks;
+using System.IO;
+
 
 namespace MYAIROPS.Web.Services
 {
     public class LogsService : ILogsService
     {
-        public void AddLog(Log log)
+        public void AddLog(LogDto log)
         {
-            throw new System.NotImplementedException();
+            using (TextWriter stream = new StreamWriter(Path.Combine(Environment.CurrentDirectory, "Logs.txt"), true))
+            {
+                stream.Write("\n--------------\n");
+                stream.Write("Id " +log.Id + "\n");
+                stream.Write("Text " + log.Text + "\n");
+                stream.Write("Date " + log.Date + "\n");              
+                stream.Close();
+            }            
         }
     }
 }
